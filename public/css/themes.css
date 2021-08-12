@@ -1,0 +1,120 @@
+/* Ol */
+
+h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  margin-top: 27px;
+}
+
+/* Main-section */
+
+.main-section {
+  margin: auto;
+  max-width: 1320px;
+  padding: 40px 20px;
+}
+.main-section-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.sort-by {
+  display: flex;
+  align-items: center;
+}
+.sort-by img {
+  width: 25px;
+  height: 15px;
+  margin-left: 10px;
+  line-height: 24px;
+}
+.sort-by-buttons {
+  margin-top: 10px;
+}
+.sort-by-buttons button {
+  padding: 5px 30px;
+  border-radius: 16px;
+  background-color: rgb(0, 109, 183);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.sort-by-buttons .newest {
+  margin-left: 15px;
+  background-color: rgb(224, 224, 224);
+  color: rgb(0, 0, 0);
+}
+
+.main-section-blocks ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -15px;
+}
+.main-section-blocks li {
+  margin-top: 15px;
+  flex-basis: 31.7%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main-section-blocks a {
+  position: relative;
+}
+.main-block-top div:first-child {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-block-logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 5px;
+}
+.main-block-logo img {
+  height: 35px;
+  width: auto;
+}
+.main-block-bottom {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+.main-block-bottom h2 {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: rgb(0, 0, 0);
+}
+.main-block-bottom p {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  height: 100%;
+  font-size: 12px;
+  line-height: 19px;
+  padding: 5px 0px;
+}
+.main-block-bottom a {
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.main-block-bottom a img {
+  margin-left: 5px;
+}
